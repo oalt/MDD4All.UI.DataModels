@@ -22,7 +22,5 @@ namespace MDD4All.UI.DataModels.Tree
         bool IsLoading { get; }
 
         bool IsDisabled { get; set; }
-
-        ITreeNode SelectedNode { get; set; }
     }
 }
