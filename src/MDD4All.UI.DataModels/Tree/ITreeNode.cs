@@ -7,6 +7,8 @@ namespace MDD4All.UI.DataModels.Tree
 {
     public interface ITreeNode
     {
+        ITree Tree { get; }
+
         ObservableCollection<ITreeNode> Children { get; }
 
         ITreeNode Parent { get; set; }
@@ -22,5 +24,7 @@ namespace MDD4All.UI.DataModels.Tree
         bool IsLoading { get; }
 
         bool IsDisabled { get; set; }
+
+        event EventHandler TreeStateChanged;
     }
 }
