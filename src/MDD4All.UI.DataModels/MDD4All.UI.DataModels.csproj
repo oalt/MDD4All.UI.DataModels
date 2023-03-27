@@ -1,21 +1,24 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>1.0.0.0</Version>
-    <Authors>MDD4All.de</Authors>
-    <Company>MDD4All.de</Company>
-    <Description>Data models for UI components</Description>
-    <Copyright>© MDD4All.de</Copyright>
-    <PackageReadmeFile>Nuget.md</PackageReadmeFile>
-    <PackageTags>UI DataModels</PackageTags>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Version>1.0.0.0</Version>
+        <Authors>MDD4All.de</Authors>
+        <Company>MDD4All.de</Company>
+        <Description>Data models for UI components</Description>
+        <Copyright>© MDD4All.de</Copyright>
+        <PackageReadmeFile>Nuget.md</PackageReadmeFile>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageTags>UI DataModels</PackageTags>
+        <SignAssembly>True</SignAssembly>
+        <AssemblyOriginatorKeyFile>MDD4All_Github.snk</AssemblyOriginatorKeyFile>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <None Include="Nuget.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-  </ItemGroup>
+    <ItemGroup>
+        <None Include="Nuget.md">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+    </ItemGroup>
 
 </Project>
