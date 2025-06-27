@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MDD4All.UI.DataModels.DragDrop;
+using System;
 using System.Collections.ObjectModel;
 
 namespace MDD4All.UI.DataModels.Tree
@@ -24,5 +25,7 @@ namespace MDD4All.UI.DataModels.Tree
         bool IsDisabled { get; set; }
 
         event EventHandler TreeStateChanged;
+
+        string DragDropOperationInformation { get; }
     }
 }
